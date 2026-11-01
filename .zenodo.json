@@ -1,0 +1,20 @@
+{
+  "title": "sighash-prevout-binding: Taproot-native input binding with OP_CAT and OP_CHECKSIGFROMSTACK on Bitcoin Inquisition signet",
+  "description": "A tapscript leaf that makes UTXO A spendable only if a specific UTXO B is spent in the same transaction, by binding to the BIP-341 sha_prevouts field through same-signature binding and preimage decomposition with OP_CAT (BIP 347) and OP_CHECKSIGFROMSTACK (BIP 348). Includes the construction code and a keyless verifier for the confirmed signet transactions.",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Zhang, Aaron",
+      "orcid": "0009-0001-1599-092X",
+      "affiliation": "btcdevlab.org"
+    }
+  ],
+  "keywords": [
+    "Bitcoin",
+    "Taproot",
+    "covenants",
+    "Bitcoin Inquisition",
+    "signet"
+  ]
+}
